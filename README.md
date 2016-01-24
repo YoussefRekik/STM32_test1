@@ -7,6 +7,6 @@ Build instructions:
 -------------------
 
 For building the debug version of the project just run this command
-docker run -v /path/to/project/test1/:/src -w=/src/Debug petoknm/stm32builder make -j4
+docker run --rm -v /path/to/project/test1/:/src -w=/src/Debug petoknm/stm32builder make -j4
 
 The release version is not yet supported.
